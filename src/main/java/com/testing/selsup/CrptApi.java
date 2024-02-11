@@ -34,7 +34,7 @@ public class CrptApi {
      * @param timeUnit     Тип единицы времени для определения интервала
      * @param duration     Интервал времени для сброса ограничений
      * @param requestLimit Максимальное количество запросов для одного интервала времени
-     * @throws IllegalArgumentException в случае передачи нулеового или отрицательного максимального количетсва запросов
+     * @throws IllegalArgumentException в случае передачи нулевого или отрицательного максимального количетсва запросов
      */
     public CrptApi(TimeUnit timeUnit, long duration, int requestLimit) {
         if (requestLimit <= 0) {
